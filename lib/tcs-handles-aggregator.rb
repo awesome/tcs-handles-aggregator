@@ -1,0 +1,5 @@
+require 'twitter'
+require 'tcs-handles-aggregator/base'
+require 'tcs-handles-aggregator/handles'
+require 'tcs-handles-aggregator/connection'
+require 'tcs-handles-aggregator/fetcher'
