@@ -2,7 +2,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'tcs-handles-aggregator'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2014-02-21'
   s.summary     = "Tweets Aggregator of all TCS related handles on twitter. "
   s.description = "Tweets Aggregator of all TCS related handles on twitter. "
