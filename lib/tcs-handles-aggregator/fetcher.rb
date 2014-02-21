@@ -9,7 +9,7 @@ module THA
 		def get
 			hsh = Hash.new
 			@users.each do |user|
-			  hsh[user] = @connection.get_all_tweets(user)
+			  hsh[user] = @connection.get_all_tweets(user).collect {|tweet| tweet.text}
 			end
 			hsh
 		end

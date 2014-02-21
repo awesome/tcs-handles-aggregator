@@ -1,4 +1,5 @@
 require 'twitter'
+require 'awesome_print'
 require 'tcs-handles-aggregator/base'
 require 'tcs-handles-aggregator/handles'
 require 'tcs-handles-aggregator/connection'

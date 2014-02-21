@@ -8,14 +8,10 @@ Gem::Specification.new do |s|
   s.description = "Tweets Aggregator of all TCS related handles on twitter. "
   s.authors     = ["Ankit gupta","Ekta Verma"]
   s.email       = ['ankit.gupta8898@gmail.com','eku4evr@gmail.com']
-  s.files       = [
-                    "lib/encrypter_decrypter/decrypt.rb",
-                    "lib/encrypter_decrypter/encrypt.rb",
-                    "lib/encrypter_decrypter/base.rb",
-                    "lib/encrypter_decrypter_files.rb",
-                    "lib/helper.rb"]          
+  s.files       = `git ls-files`.split($/)       
   s.require_paths = ["lib"]
   s.add_runtime_dependency 'twitter'
+  s.add_runtime_dependency 'awesome_print'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rake'
   s.license = 'MIT'
