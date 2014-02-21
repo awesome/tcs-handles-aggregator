@@ -2,11 +2,11 @@
 
 A Ruby Gem to Aggregate All tweets of [TCS](www.tcs.com) and TCS Activities related Official Handles.
 
-Why just TCS?
+**Why just TCS?**
 
 We work here :neckbeard: !
 
-But don't worry, it will still work for your personal account too :1:
+But don't worry, it will still work for your personal account too :+1:
 
 
 ## Installation
@@ -143,3 +143,31 @@ The Following will be the kind of output (It's just a Subset printed below)
 	        [9] "Poll : Which level of a runner you will classify yourself in?\n\n- Beginners Level\n\n- Intermediate Level\n\n- Professional Level"
 	    ]
 	}
+
+You can Still fetch the Tweets of independent Accounts too or Non TCS
+
+	1.9.3p448 :004 > fetcher = THA::Fetcher.new({connection: client,user: 'ankit8898'})
+
+
+	{
+	    "ankit8898" => [
+	        [0] "#Opensourcing githubissues-port, a #rubygem to import/export #github issues #ruby https://t.co/1lhGLqppMW",
+	        [1] "Achievement Unlocked: Philanthropist https://t.co/T5MVp1FiOg via @coderwall",
+	        [2] "Useful blog #deploy #yeomanangular app on #heroku http://t.co/et4kVYqvyn",
+	        [3] "RT @_zapper320: Look at our new gem https://t.co/UQ2yIC0GNp #rubygems  #ruby #googlehangouts",
+	        [4] "RT @babumoshoy: I think the biggest challenge ahead of Arvind Kejriwal is the summer when he might struggle to keep the muffler on.",
+	        [5] "@raysrashmi @binary_function that was informative .. i was not knowing about ext2: -&gt; 32768 case!",
+	        [6] "I just backed Hello Ruby on @Kickstarter http://t.co/rgcnKsd5b4",
+	        [7] "Rails - filter using join model on has_many through #protip https://t.co/ADBUNewXkA via @coderwall",
+	        [8] "@_svs_ thanks for the retweet! Have a great new year",
+	        [9] "@jedisct1 Thank you !"
+	    ]
+	}
+
+
+## Licensing
+
+
+The gem itself is released under the MIT license
+
+:pray:
