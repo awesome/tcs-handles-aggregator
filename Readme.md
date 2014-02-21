@@ -1,6 +1,6 @@
 #TCS Handles Aggregator
 
-A Ruby Gem to Aggregate All tweets of [TCS](www.tcs.com) and TCS Activities related Official Handles.
+A Ruby Gem to Aggregate All tweets of [TCS](tcs.com) and TCS Activities related Official Handles.
 
 **Why just TCS?**
 
