@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake'
   s.license = 'MIT'
   s.homepage    =
-    'https://github.com/gemathon-rockets/encrypter_decrypter_files'
+    'https://github.com/gemathon-rockets/tcs-handles-aggregator'
 end
